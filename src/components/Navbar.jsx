@@ -1,23 +1,19 @@
 import React from "react";
-
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ onClick }) => {
   return (
-    <nav>
+    <nav className="navbar-nav">
       <img className="logo" src="/images/Logo.png" height="72px" />
-      <ul>
-        <li>
+      <ul className="navbar-ul">
+        <li className="navbar-li" onClick={onClick}>
           <span className="list-number">01.</span>About
         </li>
-        <li>
+        <li className="navbar-li">
           <span className="list-number">02.</span>Projects
         </li>
-        <li>
-          <span className="list-number">03.</span>Stack
-        </li>
-        <li>
-          <span className="list-number">04.</span>Contact
+        <li className="navbar-li">
+          <span className="list-number">03.</span>Contact
         </li>
       </ul>
     </nav>

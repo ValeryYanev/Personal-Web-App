@@ -1,5 +1,7 @@
 .about {
   max-width: 50vw;
+  max-height: 85vh;
+  height: 90vh;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -7,7 +9,6 @@
 }
 
 .intro {
-  display: block;
   color: #a1c1db;
   font-size: 20px;
   padding-bottom: 20px;
@@ -40,5 +41,33 @@
 
 .bitmoji {
   height: 200px;
-  opacity: 0.6;
+  opacity: 0.8;
 }
+
+.skills {
+  display: block;
+  padding: 20px 0;
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+.skills-stack {
+  font-size: 20px;
+}
+
+.skills-frontend {
+  padding: 20px;
+}
+
+.skill-backend {
+  padding: 20px;
+}
+
+.fe, .be{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-top: 5px;
+  text-align: center;
+}
+
