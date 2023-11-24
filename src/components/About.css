@@ -1,0 +1,44 @@
+.about {
+  max-width: 50vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  right: 100px;
+}
+
+.intro {
+  display: block;
+  color: #a1c1db;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.name {
+  color: #f8f9fa;
+  font-size: 70px;
+}
+
+.position {
+  color: #adb5bd;
+  font-size: 60px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+
+.description {
+  color: #adb5bd;
+  display: flex;
+  gap: 20px;
+}
+
+.description-text {
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.bitmoji {
+  height: 200px;
+  opacity: 0.6;
+}
