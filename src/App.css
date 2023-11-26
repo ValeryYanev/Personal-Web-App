@@ -2,13 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #0E1A24;
+  background-color: #0e1a24;
   color: #f8f9fa;
   font-family: "Fira Code", monospace;
-
-}
-
-h2 {
-  font-family: "Fira Code", monospace;
-  font-weight: 400;
 }

@@ -1,3 +1,84 @@
-.a {
+.projects {
+  max-width: 50vw;
+  max-height: 100vh;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  right: 100px;
+  padding: 30px 0 0 0;
+}
+
+.intro {
+  color: #a1c1db;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.nature {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.frontPage {
+  border-radius: 20px;
+  width: 360px;
+  height: 240px;
+  opacity: 0.8;
+  transition: all 0.3s;
+}
+
+.frontPage:hover {
+  opacity: 1;
+  transition: all 0.3s;
+
+}
+
+.tech {
+  cursor: pointer;
+}
+
+.hide {
+  opacity: 0;
+  animation: hide 0.3s;
+}
+
+.show {
   display: block;
+  animation: show 0.3s;
+}
+
+.stack {
+  display: block;
+  padding: 10px 0 0 10px;
+}
+
+.html {
+  color: #ff922b;
+}
+
+.css {
+  color: #339af0;
+}
+
+.js {
+  color: #ffe066;
+}
+
+@keyframes hide {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

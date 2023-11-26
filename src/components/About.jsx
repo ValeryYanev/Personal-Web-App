@@ -2,18 +2,18 @@ import React from "react";
 
 import "./About.css";
 
-const About = () => {
+const About = ({ aboutRef }) => {
   return (
     <>
-      <div className="about">
+      <div id="about" className="about" ref={aboutRef}>
         <span className="intro">hello, my name is</span>
         <p className="name">Valeri Yanev</p>
         <p className="position">software web developer</p>
         <div className="description">
           <p className="description-text">
             I am а fullstack web developer, passionate about building and designing web apps. I use html, css and
-            javascript, plus different frameworks to get the desired results. In my free time I enjoy listening to
-            music, walking in nature and socializing both in person and online!
+            javascript, plus different frameworks to get the desired results. <br />
+            In my free time I enjoy listening to music, walking in nature and travelling!
           </p>
           <img className="bitmoji" src="/images/bitmoji.png" />
         </div>
@@ -41,6 +41,7 @@ const About = () => {
               </li>
             </ul>
           </div>
+
           <div className="skill-backend">
             <p className="skills-be-para">backend:</p>
             <ul className="be">
