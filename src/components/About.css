@@ -1,6 +1,5 @@
 .about {
   max-width: 50vw;
-  max-height: 100vh;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -42,6 +41,14 @@
 .bitmoji {
   height: 200px;
   opacity: 0.8;
+}
+
+.email-contact {
+  cursor: pointer;
+}
+
+.email-container-text {
+  color: #a1c1db;
 }
 
 .skills {

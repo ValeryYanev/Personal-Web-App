@@ -6,6 +6,12 @@
   font-family: "Fira Code", monospace;
   font-weight: 300;
   width: 100%;
+  position: fixed;
+}
+
+.nav-container {
+  display: block;
+  padding: 0 0 130px 0;
 }
 
 .logo {

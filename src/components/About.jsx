@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = ({ aboutRef }) => {
   return (
@@ -15,8 +16,16 @@ const About = ({ aboutRef }) => {
             javascript, plus different frameworks to get the desired results. <br />
             In my free time I enjoy listening to music, walking in nature and travelling!
           </p>
+          <br />
           <img className="bitmoji" src="/images/bitmoji.png" />
         </div>
+
+        <span className="email-container">
+          <span className="email-container-text">get in touch: &rarr; </span>
+          <Link onClick={() => window.open("mailto:valeri.t.yanev@gmail.com")}>
+            <span className="email-contact">valeri.t.yanev@gmail.com</span>
+          </Link>
+        </span>
 
         <div className="skills">
           <p className="skills-stack">my skills stack:</p>

@@ -4,16 +4,59 @@ import "./Projects.css";
 
 const Projects = ({ projectsRef }) => {
   const [show, setShow] = useState(false);
+  const [hoverNature, setHoverNature] = useState(false);
+  const [hoverNatureGh, setHoverNatureGh] = useState(false);
+  const [hoverNatureLink, setHoverNatureLink] = useState(false);
 
   return (
     <div className="projects" ref={projectsRef}>
       <p className="intro"> my projects so far: </p>
       <div className="all-projects">
         <div className="nature">
-          <Link to="https://bulgarian-nature.netlify.app/" target="blank">
-            <img className="frontPage" src="/images/nature/frontPage1.png" />
-          </Link>
-          <div>
+          <div
+            className="nature-container"
+            onMouseEnter={() => {
+              setHoverNature(true);
+              setHoverNatureGh(false);
+              setHoverNatureLink(false);
+            }}
+            onMouseLeave={() => setHoverNature(false)}
+          >
+            <img
+              className="frontPage"
+              src={hoverNature ? "/images/nature/frontPage2.png" : "/images/nature/frontPage1.png"}
+            />
+            <div className="projects-links">
+              <Link
+                to="https://github.com/valeriYanev01/Nature-In-Bulgaria-Website"
+                target="blank"
+                rel="noopener"
+                onMouseEnter={() => {
+                  setHoverNatureGh(true);
+                  setHoverNatureLink(false);
+                }}
+                onMouseLeave={() => setHoverNatureGh(false)}
+              >
+                <img
+                  src="/svg/github.svg"
+                  className={`nature-link nature-link-gh ${hoverNatureGh ? "white-bg-gh" : ""}`}
+                />
+              </Link>
+              <Link
+                to="https://bulgarian-nature.netlify.app/"
+                target="blank"
+                rel="noopener"
+                onMouseEnter={() => {
+                  setHoverNatureGh(false);
+                  setHoverNatureLink(true);
+                }}
+                onMouseLeave={() => setHoverNatureLink(false)}
+              >
+                <img src="/svg/link.svg" className={`nature-link ${hoverNatureLink ? "white-bg-link" : ""}`} />
+              </Link>
+            </div>
+          </div>
+          <div className="tech-container">
             <p className="tech" onClick={() => setShow(!show)}>
               technologies: {show ? "↑" : "↓"}
             </p>

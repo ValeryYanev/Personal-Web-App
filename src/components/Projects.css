@@ -1,11 +1,11 @@
 .projects {
   max-width: 50vw;
-  max-height: 100vh;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   right: 100px;
   padding: 30px 0 0 0;
+  transform: all 0.5s;
 }
 
 .intro {
@@ -15,9 +15,44 @@
 }
 
 .nature {
+  padding: 0 0 0 30px;
   display: flex;
   gap: 50px;
   align-items: center;
+}
+
+.nature-container {
+  position: relative;
+}
+
+.projects-links {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.projects-links:hover {
+  opacity: 1;
+}
+
+.nature-link {
+  position: absolute;
+  background: none;
+  bottom: 0;
+  right: 0;
+}
+
+.nature-link-gh {
+  margin: 0 60px 0 0;
+}
+
+.white-bg-gh {
+  background: #fff;
+  border-radius: 200px;
+}
+
+.white-bg-link {
+  background: #fff;
+  border-radius: 5px;
 }
 
 .frontPage {
@@ -25,13 +60,18 @@
   width: 360px;
   height: 240px;
   opacity: 0.8;
-  transition: all 0.3s;
+  transition: all 0.2s;
+  display: block;
 }
 
 .frontPage:hover {
   opacity: 1;
-  transition: all 0.3s;
+  transition: all 0.2s;
+}
 
+.tech-container {
+  padding: 0 0 0 10px;
+  border-left: 2px solid;
 }
 
 .tech {
