@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      <Link>Build by Valeri Yanev</Link>
+      <Link to="https://github.com/valeriYanev01/Personal-Web-App" target="blank" rel="noopener">
+        Build by Valeri Yanev
+      </Link>
     </div>
   );
 };
