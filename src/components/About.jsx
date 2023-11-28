@@ -16,6 +16,7 @@ const About = ({ aboutRef }) => {
             javascript, plus different frameworks to get the desired results. <br />
             In my free time I enjoy listening to music, walking in nature and travelling!
           </p>
+
           <br />
           <img className="bitmoji" src="/images/bitmoji.png" />
         </div>

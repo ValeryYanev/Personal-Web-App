@@ -8,8 +8,12 @@ const Projects = ({ projectsRef }) => {
   const [hoverNatureGh, setHoverNatureGh] = useState(false);
   const [hoverNatureLink, setHoverNatureLink] = useState(false);
 
+  setTimeout(function () {
+    document.body.className = "";
+  }, 500);
+
   return (
-    <div className="projects" ref={projectsRef}>
+    <div className="projects stopLoad" ref={projectsRef}>
       <p className="intro"> my projects so far: </p>
       <div className="all-projects">
         <div className="nature">
@@ -61,9 +65,9 @@ const Projects = ({ projectsRef }) => {
               technologies: {show ? "↑" : "↓"}
             </p>
             <div className={`${show ? "show" : "hide"} stack`}>
-              <p className="html">html</p>
-              <p className="css">css</p>
-              <p className="js">javascript</p>
+              <p className={`${show ? "htmlOn" : "htmlOff"} html`}>html</p>
+              <p className={`${show ? "cssOn" : "cssOff"} css`}>css</p>
+              <p className={`${show ? "jsOn" : "jsOff"} js`}>javascript</p>
             </div>
           </div>
         </div>
