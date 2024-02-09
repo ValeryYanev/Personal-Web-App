@@ -45,6 +45,10 @@ const About = ({ aboutRef }) => {
                 <img src="/svg/js.svg" />
               </li>
               <li>
+                <p>python</p>
+                <img src="/svg/python.svg" />
+              </li>
+              <li>
                 <p>react</p>
                 <img src="/svg/react.svg" />
               </li>

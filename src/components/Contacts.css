@@ -23,6 +23,7 @@ a {
     display: block;
     top: auto;
     left: auto;
+    margin-top: 40px;
   }
   .contact-list {
     display: flex;

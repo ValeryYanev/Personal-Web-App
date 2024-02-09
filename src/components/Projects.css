@@ -19,14 +19,19 @@ body.preload * {
   padding-bottom: 20px;
 }
 
-.nature {
+.nature,
+.fitness {
   padding: 0 0 0 30px;
   display: flex;
   gap: 50px;
   align-items: center;
 }
+.fitness {
+  margin-top: 20px;
+}
 
-.nature-container {
+.nature-container,
+.fitness-container {
   position: relative;
 }
 
@@ -39,14 +44,16 @@ body.preload * {
   opacity: 1;
 }
 
-.nature-link {
+.nature-link,
+.fitness-link {
   position: absolute;
   background: none;
   bottom: 0;
   right: 0;
 }
 
-.nature-link-gh {
+.nature-link-gh,
+.fitness-link-gh {
   margin: 0 60px 0 0;
 }
 
@@ -80,73 +87,37 @@ body.preload * {
 }
 
 .tech {
-  cursor: pointer;
+  padding-bottom: 10px;
 }
 
 .stack {
   display: block;
   padding: 10px 0 0 10px;
+  color: #adb5bd;
 }
 
 .html {
   color: #ff922b;
-  width: 0;
-  overflow: hidden;
-}
-
-.htmlOn {
-  animation: showElement 0.3s forwards;
-}
-
-.htmlOff {
-  animation: hideElement 0.3s forwards;
 }
 
 .css {
   color: #339af0;
-  width: 0;
-  overflow: hidden;
-}
-
-.cssOn {
-  animation: showElement 0.3s forwards;
-  animation-delay: 0.35s;
-}
-
-.cssOff {
-  animation: hideElement 0.3s forwards;
 }
 
 .js {
   color: #ffe066;
-  width: 0;
-  overflow: hidden;
 }
 
-.jsOn {
-  animation: showElement 0.3s forwards;
-  animation-delay: 0.7s;
+.react {
+  color: rgb(20, 158, 202);
 }
 
-.jsOff {
-  animation: hideElement 0.3s forwards;
+.nodejs {
+  color: rgb(65, 126, 56);
 }
 
-@keyframes showElement {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes hideElement {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0;
-  }
+.mongodb {
+  color: #00ed64;
 }
 
 @media screen and (max-width: 768px) {
