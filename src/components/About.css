@@ -105,6 +105,11 @@
   .bitmoji {
     width: 150px;
   }
+
+  .fe,
+  .be {
+    gap: 15px;
+  }
   .skills-stack {
     font-size: 16px;
   }
