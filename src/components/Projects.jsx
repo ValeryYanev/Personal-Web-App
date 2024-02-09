@@ -49,7 +49,7 @@ const Projects = ({ projectsRef }) => {
                 />
               </Link>
               <Link
-                to="https://bulgarian-nature.netlify.app/"
+                to="https://nature-in-bulgaria.vercel.app/"
                 target="blank"
                 rel="noopener"
                 onMouseEnter={() => {
