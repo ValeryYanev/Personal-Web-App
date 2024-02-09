@@ -131,7 +131,8 @@ body.preload * {
     font-size: 16px;
     margin-left: 20px;
   }
-  .nature {
+  .nature,
+  .fitness {
     flex-direction: column;
     padding: 0;
     gap: 20px;
@@ -145,7 +146,8 @@ body.preload * {
   .projects-links a img {
     width: 36px;
   }
-  .nature-link-gh {
+  .nature-link-gh,
+  .fitness-link-gh {
     margin: 0 45px 0 0;
   }
   .tech-container {
