@@ -17,7 +17,7 @@ const Contacts = ({ contactRef }) => {
             onMouseLeave={() => setEmailElement(false)}
           >
             <img src="/svg/gmail.svg" />
-            <span>&nbsp; Email</span>
+            <span>Email</span>
           </li>
         </Link>
         <Link to="https://www.linkedin.com/in/valeri-yanev-65bbb9277/" target="blank" rel="noopener">
@@ -27,7 +27,7 @@ const Contacts = ({ contactRef }) => {
             onMouseLeave={() => setLinkedinElement(false)}
           >
             <img src="/svg/linkedin.svg" />
-            <span>&nbsp; Linkedin</span>
+            <span>Linkedin</span>
           </li>
         </Link>
         <Link to="https://github.com/valeriYanev01" target="blank" rel="noopener">
@@ -37,7 +37,7 @@ const Contacts = ({ contactRef }) => {
             onMouseLeave={() => setGithubElement(false)}
           >
             <img src="/svg/github2.svg" />
-            <span>&nbsp; Github</span>
+            <span>Github</span>
           </li>
         </Link>
       </ul>

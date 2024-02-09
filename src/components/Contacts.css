@@ -16,3 +16,21 @@
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-section {
+    position: relative;
+    display: block;
+    top: auto;
+    left: auto;
+  }
+  .contact-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  .contact-single-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}

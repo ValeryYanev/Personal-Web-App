@@ -13,8 +13,7 @@ const About = ({ aboutRef }) => {
         <div className="description">
           <p className="description-text">
             I am а fullstack web developer, passionate about building and designing web apps. I use html, css and
-            javascript, plus different frameworks to get the desired results. <br />
-            In my free time I enjoy listening to music, walking in nature and travelling!
+            javascript, plus different frameworks to get the desired results.
           </p>
 
           <br />

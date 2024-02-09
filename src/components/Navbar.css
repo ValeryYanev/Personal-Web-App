@@ -20,6 +20,7 @@
   transition: padding 0.2;
   transition-delay: 0.2s;
   cursor: pointer;
+  height: 72px;
 }
 
 .logo:hover {
@@ -53,4 +54,22 @@
 
 .list-number {
   color: #a1c1db;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
+  .navbar-nav {
+    width: auto;
+    gap: 50px;
+  }
+  .logo {
+    height: 48px;
+  }
+  .navbar-li {
+    font-size: 16px;
+  }
 }

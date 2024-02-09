@@ -148,3 +148,36 @@ body.preload * {
     width: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .projects {
+    max-width: none;
+    margin: auto;
+    right: auto;
+    padding: 0;
+  }
+  .intro {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  .nature {
+    flex-direction: column;
+    padding: 0;
+    gap: 20px;
+    align-items: baseline;
+    margin-left: 40px;
+  }
+  .frontPage {
+    width: 250px;
+    height: 150px;
+  }
+  .projects-links a img {
+    width: 36px;
+  }
+  .nature-link-gh {
+    margin: 0 45px 0 0;
+  }
+  .tech-container {
+    border: none;
+  }
+}

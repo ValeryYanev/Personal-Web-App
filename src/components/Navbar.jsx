@@ -15,7 +15,7 @@ const Navbar = ({ aboutRef, projectsRef }) => {
     <div className="nav-container">
       <nav className="navbar-nav">
         <Link to="/">
-          <img className="logo" src="/images/Logo.png" height="72px" />
+          <img className="logo" src="/images/Logo.png" />
         </Link>
         <ul className="navbar-ul">
           <li className="navbar-li" onClick={() => scrollAbout.scrollIntoView({ behavior: "smooth" })}>
