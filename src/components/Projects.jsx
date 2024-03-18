@@ -24,12 +24,12 @@ const Projects = ({ projectsRef }) => {
             hoverLink={hoverLink}
             setHoverLink={setHoverLink}
             containerName={"project-container"}
-            projectName={"nature"}
-            img1={"/images/nature/frontPage1.png"}
-            img2={"/images/nature/frontPage2.png"}
-            ghLink={"https://github.com/valeriYanev01/Nature-In-Bulgaria-Website"}
-            url={"https://nature-in-bulgaria.vercel.app/"}
-            tech={["html", "css", "javascript"]}
+            projectName={"summoner-scoreboard"}
+            img1={"/images/summoner-scoreboard/frontPage1.png"}
+            img2={"/images/summoner-scoreboard/frontPage2.png"}
+            ghLink={"https://github.com/valeriYanev01/Riot-Games-Project"}
+            url={"https://summoner-scoreboard.vercel.app/"}
+            tech={["react", "css", "Riot Games API"]}
           />
         </div>
         <div className="project">
@@ -58,12 +58,12 @@ const Projects = ({ projectsRef }) => {
             hoverLink={hoverLink}
             setHoverLink={setHoverLink}
             containerName={"project-container"}
-            projectName={"summoner-scoreboard"}
-            img1={"/images/summoner-scoreboard/frontPage1.png"}
-            img2={"/images/summoner-scoreboard/frontPage2.png"}
-            ghLink={"https://github.com/valeriYanev01/Riot-Games-Project"}
-            url={"https://summoner-scoreboard.vercel.app/"}
-            tech={["react", "css", "Riot Games API"]}
+            projectName={"nature"}
+            img1={"/images/nature/frontPage1.png"}
+            img2={"/images/nature/frontPage2.png"}
+            ghLink={"https://github.com/valeriYanev01/Nature-In-Bulgaria-Website"}
+            url={"https://nature-in-bulgaria.vercel.app/"}
+            tech={["html", "css", "javascript"]}
           />
         </div>
       </div>
