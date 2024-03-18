@@ -12,13 +12,16 @@ const About = ({ aboutRef }) => {
         <p className="position">software web developer</p>
         <div className="description">
           <p className="description-text">
-            I am а fullstack web developer, passionate about building and designing web apps. I use html, css and
-            javascript, plus different frameworks to get the desired results.
+            I'm a seasoned full-stack web developer who loves crafting captivating web experiences. With expertise in
+            HTML, CSS, and JavaScript, I'm all about using different frameworks to make things shine. <br />
+            My goal? Blending creativity and tech skills to knock projects out of the park and make a real impact.
           </p>
 
           <br />
           <img className="bitmoji" src="/images/bitmoji.png" />
         </div>
+        <br />
+        <br />
 
         <span className="email-container">
           <span className="email-container-text">get in touch: &rarr; </span>
@@ -28,7 +31,7 @@ const About = ({ aboutRef }) => {
         </span>
 
         <div className="skills">
-          <p className="skills-stack">my skills stack:</p>
+          <p className="skills-stack">my skill stack:</p>
           <div className="skills-frontend">
             <p className="skills-fe-para">frontend:</p>
             <ul className="fe">
@@ -43,10 +46,6 @@ const About = ({ aboutRef }) => {
               <li>
                 <p>js</p>
                 <img src="/svg/js.svg" />
-              </li>
-              <li>
-                <p>python</p>
-                <img src="/svg/python.svg" />
               </li>
               <li>
                 <p>react</p>

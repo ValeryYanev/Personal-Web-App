@@ -20,7 +20,7 @@ const Contacts = ({ contactRef }) => {
             <span>Email</span>
           </li>
         </Link>
-        <Link to="https://www.linkedin.com/in/valeri-yanev-65bbb9277/" target="blank" rel="noopener">
+        <Link to="https://www.linkedin.com/in/valeri-t-yanev/" target="blank" rel="noopener">
           <li
             className="contact-single-list"
             onMouseEnter={() => setLinkedinElement(true)}

@@ -16,19 +16,7 @@
 
 .logo {
   padding: 0;
-  -webkit-transition: padding 0.2s;
-  transition: padding 0.2;
-  transition-delay: 0.2s;
-  cursor: pointer;
   height: 72px;
-}
-
-.logo:hover {
-  padding-left: 10px;
-  padding-bottom: 5px;
-  -webkit-transition: padding 0.2s;
-  transition: padding 0.2;
-  transition-delay: 0.2s;
 }
 
 .navbar-li {
@@ -49,6 +37,7 @@
   font-size: 20px;
   display: flex;
   gap: 30px;
+  z-index: 999999;
   padding-right: 50px;
 }
 

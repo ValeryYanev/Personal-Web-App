@@ -19,19 +19,17 @@ body.preload * {
   padding-bottom: 20px;
 }
 
-.nature,
-.fitness {
+.project {
   padding: 0 0 0 30px;
   display: flex;
   gap: 50px;
   align-items: center;
 }
-.fitness {
+.project:not(:first-of-type) {
   margin-top: 20px;
 }
 
-.nature-container,
-.fitness-container {
+.project-container {
   position: relative;
 }
 
@@ -44,16 +42,14 @@ body.preload * {
   opacity: 1;
 }
 
-.nature-link,
-.fitness-link {
+.url-link {
   position: absolute;
   background: none;
   bottom: 0;
   right: 0;
 }
 
-.nature-link-gh,
-.fitness-link-gh {
+.link-gh {
   margin: 0 60px 0 0;
 }
 
@@ -96,28 +92,8 @@ body.preload * {
   color: #adb5bd;
 }
 
-.html {
-  color: #ff922b;
-}
-
-.css {
-  color: #339af0;
-}
-
-.js {
-  color: #ffe066;
-}
-
-.react {
-  color: rgb(20, 158, 202);
-}
-
-.nodejs {
-  color: rgb(65, 126, 56);
-}
-
-.mongodb {
-  color: #00ed64;
+.stack p {
+  color: #a1c1db;
 }
 
 @media screen and (max-width: 768px) {
@@ -140,8 +116,7 @@ body.preload * {
     padding: 0;
   }
 
-  .nature,
-  .fitness {
+  .project {
     flex-direction: column;
     padding: 0;
     gap: 20px;
