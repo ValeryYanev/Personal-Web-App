@@ -1,69 +1,51 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Projects.css";
 import SingleProject from "./SingleProject";
 
 const Projects = ({ projectsRef }) => {
-  const [hoverProject, setHoverProject] = useState("");
-  const [hoverGh, setHoverGh] = useState("");
-  const [hoverLink, setHoverLink] = useState("");
-
   setTimeout(function () {
     document.body.className = "";
   }, 500);
 
   return (
     <div className="projects stopLoad" ref={projectsRef}>
-      <p className="intro"> my projects so far: </p>
+      <p className="intro"> My projects:</p>
       <div className="all-projects">
         <div className="project">
           <SingleProject
-            hoverProject={hoverProject}
-            setHoverProject={setHoverProject}
-            hoverGh={hoverGh}
-            setHoverGh={setHoverGh}
-            hoverLink={hoverLink}
-            setHoverLink={setHoverLink}
-            containerName={"project-container"}
-            projectName={"summoner-scoreboard"}
-            img1={"/images/summoner-scoreboard/frontPage1.png"}
-            img2={"/images/summoner-scoreboard/frontPage2.png"}
-            ghLink={"https://github.com/valeriYanev01/Riot-Games-Project"}
-            url={"https://summoner-scoreboard.vercel.app/"}
-            tech={["react", "css", "Riot Games API"]}
+            img1={"/images/spotify-clone.jpg"}
+            url={"https://spotify-clone-vy.vercel.app/"}
+            tech={[
+              "TypeScript",
+              "React",
+              "Css",
+              "Axios",
+              "JWT",
+              "ExpressJS",
+              "Spotify Web API",
+              "Spotify Web Playback SDK",
+            ]}
+          />
+        </div>{" "}
+        <div className="project">
+          <SingleProject
+            img1={"/images/dominos-clone.jpg"}
+            url={"https://dominos-clone-app.vercel.app/"}
+            tech={["TypeScript", "React", "Css", "Nodejs", "ExpressJS", "MongoDB"]}
           />
         </div>
         <div className="project">
           <SingleProject
-            hoverProject={hoverProject}
-            setHoverProject={setHoverProject}
-            hoverGh={hoverGh}
-            setHoverGh={setHoverGh}
-            hoverLink={hoverLink}
-            setHoverLink={setHoverLink}
-            containerName={"project-container"}
-            projectName={"fitness"}
-            img1={"/images/fitness/frontPage1.png"}
-            img2={"/images/fitness/frontPage2.png"}
-            ghLink={"https://github.com/valeriYanev01/Fitness-Web-App"}
+            img1={"/images/fitness.jpg"}
             url={"https://mindcraft-fitness.vercel.app/"}
-            tech={["react", "css", "nodejs", "express", "mongodb"]}
+            tech={["React", "Css", "Nodejs", "ExpressJS", "MongoDB"]}
           />
         </div>
         <div className="project">
           <SingleProject
-            hoverProject={hoverProject}
-            setHoverProject={setHoverProject}
-            hoverGh={hoverGh}
-            setHoverGh={setHoverGh}
-            hoverLink={hoverLink}
-            setHoverLink={setHoverLink}
-            containerName={"project-container"}
-            projectName={"nature"}
-            img1={"/images/nature/frontPage1.png"}
-            img2={"/images/nature/frontPage2.png"}
-            ghLink={"https://github.com/valeriYanev01/Nature-In-Bulgaria-Website"}
+            img1={"/images/nature.jpg"}
             url={"https://nature-in-bulgaria.vercel.app/"}
-            tech={["html", "css", "javascript"]}
+            tech={["html", "Css", "JavaScript"]}
           />
         </div>
       </div>

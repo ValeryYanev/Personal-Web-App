@@ -63,19 +63,23 @@
   font-size: 20px;
 }
 
-.skills-frontend,
-.skill-backend {
+.skills-frontend {
   padding: 20px 0 0 20px;
 }
 
-.fe,
-.be {
+.fe {
   display: flex;
   gap: 20px;
   list-style: none;
   padding-top: 5px;
   text-align: center;
 }
+
+.fe li img {
+  width: 48px !important;
+  height: 48px !important;
+}
+
 @media screen and (max-width: 768px) {
   .about {
     max-width: none;

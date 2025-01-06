@@ -17,7 +17,7 @@ const ScrollTop = () => {
     <>
       {scrollYPos > 70 && (
         <div className="scrollToTop" onClick={scrollTop}>
-          top
+          Top
         </div>
       )}
     </>
