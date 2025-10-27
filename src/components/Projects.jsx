@@ -7,6 +7,8 @@ const Projects = ({ projectsRef }) => {
     document.body.className = "";
   }, 500);
 
+  // test
+
   return (
     <div className="projects stopLoad" ref={projectsRef}>
       <p className="intro"> My projects:</p>
