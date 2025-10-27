@@ -12,21 +12,7 @@ const Projects = ({ projectsRef }) => {
       <p className="intro"> My projects:</p>
       <div className="all-projects">
         <div className="project">
-          <SingleProject
-            img1={"/images/spotify-clone.jpg"}
-            url={"https://spotify-clone-vy.vercel.app/"}
-            tech={[
-              "TypeScript",
-              "React",
-              "Css",
-              "Axios",
-              "JWT",
-              "ExpressJS",
-              "Spotify Web API",
-              "Spotify Web Playback SDK",
-            ]}
-          />
-        </div>{" "}
+        </div>
         <div className="project">
           <SingleProject
             img1={"/images/dominos-clone.jpg"}
