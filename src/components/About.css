@@ -1,0 +1,124 @@
+.about {
+  max-width: 50vw;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  right: 100px;
+  padding: 30px 0 0 0;
+}
+
+.intro {
+  color: #a1c1db;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.name {
+  color: #f8f9fa;
+  font-size: 70px;
+}
+
+.position {
+  color: #adb5bd;
+  font-size: 60px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+
+.description {
+  color: #adb5bd;
+  display: flex;
+  gap: 20px;
+}
+
+.description-text {
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.bitmoji {
+  height: 200px;
+  opacity: 0.8;
+}
+
+.email-contact {
+  cursor: pointer;
+}
+
+.email-container-text {
+  color: #a1c1db;
+}
+
+.skills {
+  display: block;
+  padding: 20px 0;
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+.skills-stack {
+  color: #a1c1db;
+  font-size: 20px;
+}
+
+.skills-frontend {
+  padding: 20px 0 0 20px;
+}
+
+.fe {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.fe li img {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    max-width: none;
+    margin: auto;
+    right: auto;
+    padding: 0 0 0 20px;
+    margin-top: 130px;
+  }
+  .intro {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 36px;
+  }
+  .position {
+    font-size: 24px;
+    margin-top: -10px;
+  }
+  .description {
+    gap: 5px;
+    margin: 30px 0;
+  }
+  .description-text {
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+  .bitmoji {
+    width: 150px;
+  }
+
+  .fe,
+  .be {
+    gap: 15px;
+  }
+  .skills-stack {
+    font-size: 16px;
+  }
+  .skills-frontend,
+  .skill-backend {
+    padding: 10px 0 0 20px;
+  }
+}
